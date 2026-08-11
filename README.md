@@ -26,7 +26,7 @@ kinit uses the 2-Clause BSD License. More info about it at: https://opensource.o
 
 # Verifying releases
 
-> [!IMPORTANT]
+> [!NOTICE]
 > kinit releases are signed with these keys, for both the core repository
 > and the package manager, from now on.
 
