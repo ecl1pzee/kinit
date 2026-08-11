@@ -6,6 +6,12 @@
   TOML • services • easy to use • user friendly • intuitive • welcoming
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Nim-121212?style=for-the-badge&logo=nim&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zig-121212?style=for-the-badge&logo=zig&logoColor=white" />
+</p>
+
+
 # Philosophy
 More is less, and if something does not work how the user expects it, it is not working for the user, but rather, against the user.
 
