@@ -8,7 +8,7 @@ proc performSanityChecks* =
         echo "[+] Running as root."
     else:
         echo "fail!"
-        echo "[x] CRITICAL: not running as root, maybe use sudo/doas? Quitting here."
+        echo "[x] not running as root, maybe use sudo/doas? Quitting here."
         quit(1)
 
 proc Larp* =
