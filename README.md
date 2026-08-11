@@ -1,6 +1,10 @@
 <p align="center">
   <img src="kinit logo.png" width="400" alt="kinit logo" />
 </p>
+<p align="center">
+  <em>The best init system for Linux you've ever seen..</em><br>
+  TOML • services • easy to use • user friendly • intuitive • welcoming
+</p>
 
 # Philosophy
 More is less, and if something does not work how the user expects it, it is not working for the user, but rather, against the user.
