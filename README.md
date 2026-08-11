@@ -2,7 +2,7 @@
   <img src="kinit logo.png" width="400" alt="kinit logo" />
 </p>
 <p align="center">
-  <em>The best init system for Linux you've ever seen..</em><br>
+  <em>The best init system for Linux you've ever seen.</em><br>
   TOML • services • easy to use • user friendly • intuitive • welcoming
 </p>
 
