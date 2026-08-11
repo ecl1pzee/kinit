@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="kinit_logo.png" width="400" alt="kinit logo" />
+  <img src="kinit logo.png" width="400" alt="kinit logo" />
 </p>
 
 # Philosophy
