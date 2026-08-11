@@ -1,5 +1,4 @@
-# kinit
-Kinit --> The best init system out there!
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/fCAytn2Q9g6i1WNSJ7yfVv/Ohne-Namen?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 # Philosophy
 More is less, and if something does not work how the user expects it, it is not working for the user, but rather, against the user.
