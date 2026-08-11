@@ -56,8 +56,11 @@ untrusted and please open an issue, although this shan't happen.
 
 Documentation
 =============
-At the moment, none.
+Hosted on https://kinit-docs.bitetheapple.org, thanks to thatpicoder!
 
+Special thanks
+===
+thatpicoder
 
 Check out our other projects!
 ====
