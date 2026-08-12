@@ -12,5 +12,5 @@ proc performSanityChecks* =
         quit(1)
 
 proc Larp* =
-    echo "kinitctl v1.2 by AustralisXYZ"
+    echo "kinitctl v1.2 by AustralisXYZ AND aureliusxyz"
     echo "............................."

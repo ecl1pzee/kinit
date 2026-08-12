@@ -1,0 +1,12 @@
+.{
+    .name = .kinit_1,
+    .version = "0.16.0",
+    .dependencies = .{
+        .automl = .{
+            .url = "git+https://github.com/aureliusxyz/automl#a4e7c7fd5e89b79d29df45436cdd5c5639607b3e",
+            .hash = "automl-0.1.0-9tf8CnTLAADYQnoFTHNLP_BwGqbzyLnB59zMwbddXz80",
+        },
+    },
+    .paths = .{""},
+    .fingerprint = 0x640f697bd882b63d,
+}

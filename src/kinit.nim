@@ -2,7 +2,38 @@ import std/os # needed! cli args, also part of core kinit
 import utils
 
 # Sometimes you gotta lick the stamp and send it - Daniel Ricciardo
+# sometimes the stamp gotta lick you - Max Verstappen
 
+# zig shit!
+type
+  Cservice = object
+    nameptr: ptr UncheckedArray[uint8] 
+    namelen: csize_t
+    descptr: ptr UncheckedArray[uint8]
+    desclen: csize_t
+    execptr: ptr UncheckedArray[uint8]
+    execlen: csize_t
+# 
+proc parse_service(txtptr: ptr uint8, txtlen: csize_t, outsvc: ptr Cservice): cint {.importc, cdecl.}
+
+# i hate this syntax
+proc ctostr(p: ptr UncheckedArray[uint8], len: csize_t): string =
+  result = newString(len.int)
+  if len > 0:
+    copyMem(result[0].addr, p, len.int)
+
+proc load_service(path: string): Cservice =
+  let text = readFile(path)
+  var svc: Cservice
+  var textc = text # need a mutable buffer to take addr of, important because of how nim handles strings (weird asf)
+  let rc = parse_service(cast[ptr uint8](textc[0].addr), textc.len.csize_t, svc.addr)
+  if rc != 0:
+    echo "[x] Failed to parse service file: " & path
+    quit(1)
+  return svc
+# i think you get it from here australis 
+# zig shit end
+# alr u get it from here, you can wire this in very easily just call loadservice and use cservice object to get name and desc and shit.
 var args = commandLineParams()
 
 if args.len == 0:
