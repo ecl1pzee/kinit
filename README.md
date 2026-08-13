@@ -11,6 +11,16 @@
   <img src="https://img.shields.io/badge/Zig-121212?style=for-the-badge&logo=zig&logoColor=white" />
 </p>
 
+# What's this?
+In short terms, **kinit** is the PID1 of Linux systems, a.k.a an init system.
+
+An init system is the first program, other than the kernel, to be run after Linux is booted.
+
+# Features
+- TOML services
+- user friendly
+- SystemD-like control interface (enable, disable, start,stop etc)
+- a goated logo by australis
 
 # Philosophy
 More is less, and if something does not work how the user expects it, it is not working for the user, but rather, against the user.
