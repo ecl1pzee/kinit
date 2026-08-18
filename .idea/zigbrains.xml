@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildScanner">
+    <option name="projects">
+      <list><![CDATA[{
+  "name": "kinit_1",
+  "version": "0.16.0",
+  "path": "/Users/helix/CLionProjects/kinit",
+  "steps": [
+    {
+      "name": "install",
+      "description": "Copy build artifacts to prefix path",
+      "kind": "install_artifact"
+    },
+    {
+      "name": "uninstall",
+      "description": "Remove build artifacts from prefix path",
+      "kind": "uninstall"
+    }
+  ],
+  "modules": [
+    {
+      "root": "src/root.zig",
+      "public": false,
+      "imports": []
+    }
+  ],
+  "dependencies": []
+}]]><![CDATA[{
+  "name": "automl",
+  "version": "0.1.0",
+  "path": "/Users/helix/CLionProjects/kinit/zig-pkg/automl-0.1.0-9tf8CnTLAADYQnoFTHNLP_BwGqbzyLnB59zMwbddXz80",
+  "steps": [
+    {
+      "name": "install",
+      "description": "Copy build artifacts to prefix path",
+      "kind": "uninstall"
+    },
+    {
+      "name": "uninstall",
+      "description": "Remove build artifacts from prefix path",
+      "kind": "uninstall"
+    },
+    {
+      "name": "test",
+      "description": "Run library tests",
+      "kind": "run"
+    }
+  ],
+  "modules": [
+    {
+      "root": "src/root.zig",
+      "public": true,
+      "imports": []
+    },
+    {
+      "root": "src/tests.zig",
+      "public": false,
+      "imports": []
+    }
+  ],
+  "dependencies": []
+}]]></list>
+    </option>
+  </component>
+  <component name="ZigToolchain" toolchain="fc864a58-7e19-460b-ba57-a6dc305a69a7" />
+</project>
