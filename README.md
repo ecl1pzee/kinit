@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C-121212?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Zig-121212?style=for-the-badge&logo=zig&logoColor=white" />
-  ![](https://img.shields.io/badge/Made%20with-Opsec-black?style=for-the-badge&logo=adafruit)
+  <img src="https://img.shields.io/badge/Made%20with-Opsec-black?style=for-the-badge&logo=adafruit" alt="Badge">
 </p>
 
 # What's this?
