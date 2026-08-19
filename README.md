@@ -74,7 +74,7 @@ thatpicoder
 
 Check out our other projects!
 ====
-###  <p align="middle"><em>maintained by <a href="https://github.com/aureliusxyz">aurelius</a></em></p>
+###  <p align="middle"><em>maintained by <a href="https://github.com/aureliusxyz">aurelius</a></em> and <a href="https://github.com/ecl1pzee</a></p>
 ### [automl](https://github.com/aureliusxyz/automl)
 *A small, portable TOML-ish parser library with zero deps, dotted sections, nested arrays, pretty diagnostics.* (used by kinit!)
 
