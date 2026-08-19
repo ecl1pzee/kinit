@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Nim-121212?style=for-the-badge&logo=nim&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-121212?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Zig-121212?style=for-the-badge&logo=zig&logoColor=white" />
 </p>
 
